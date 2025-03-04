@@ -143,6 +143,14 @@
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -174,7 +182,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.301046119718246,
+        "zoomFactor": 0.39251611754882276,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -190,9 +198,26 @@
           "name": "man",
           "persistentUuid": "6090692d-9f43-4aed-bc24-efa8f018f439",
           "width": 463,
-          "x": -664,
-          "y": -1244,
+          "x": 320,
+          "y": 379,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 595,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "4a689b2c-c868-4aaf-80f1-156797763e31",
+          "width": 1307,
+          "x": -10,
+          "y": 346,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -206,7 +231,20 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [
             {
               "acceleration": 1500,
@@ -220,7 +258,7 @@
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
-              "maxSpeed": 250,
+              "maxSpeed": 254,
               "name": "PlatformerObject",
               "slopeMaxAngle": 60,
               "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -244,40 +282,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 697,
+                        "y": 483
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 968,
+                        "y": 1107
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 490.5,
-                            "y": 1085.5
+                            "x": 704,
+                            "y": 491.5
                           },
                           {
-                            "x": 273,
-                            "y": 293
+                            "x": 1200,
+                            "y": 502.5
                           },
                           {
-                            "x": 936.5,
-                            "y": 90
+                            "x": 1207,
+                            "y": 1869.5
                           },
                           {
-                            "x": 1599.5,
-                            "y": 293
-                          },
-                          {
-                            "x": 1193,
-                            "y": 1878
-                          },
-                          {
-                            "x": 708,
-                            "y": 1878
+                            "x": 686,
+                            "y": 1869.5
                           }
                         ]
                       ]
@@ -301,40 +331,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 697,
+                        "y": 483
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 968,
+                        "y": 1107
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 490.5,
-                            "y": 1085.5
+                            "x": 704,
+                            "y": 491.5
                           },
                           {
-                            "x": 273,
-                            "y": 293
+                            "x": 1200,
+                            "y": 502.5
                           },
                           {
-                            "x": 936.5,
-                            "y": 90
+                            "x": 1207,
+                            "y": 1869.5
                           },
                           {
-                            "x": 1599.5,
-                            "y": 293
-                          },
-                          {
-                            "x": 1193,
-                            "y": 1878
-                          },
-                          {
-                            "x": 708,
-                            "y": 1878
+                            "x": 686,
+                            "y": 1869.5
                           }
                         ]
                       ]
@@ -345,40 +367,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 697,
+                        "y": 483
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 968,
+                        "y": 1107
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 490.5,
-                            "y": 1085.5
+                            "x": 704,
+                            "y": 491.5
                           },
                           {
-                            "x": 273,
-                            "y": 293
+                            "x": 1200,
+                            "y": 502.5
                           },
                           {
-                            "x": 936.5,
-                            "y": 90
+                            "x": 1207,
+                            "y": 1869.5
                           },
                           {
-                            "x": 1599.5,
-                            "y": 293
-                          },
-                          {
-                            "x": 1193,
-                            "y": 1878
-                          },
-                          {
-                            "x": 708,
-                            "y": 1878
+                            "x": 686,
+                            "y": 1869.5
                           }
                         ]
                       ]
@@ -389,40 +403,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 697,
+                        "y": 483
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 968,
+                        "y": 1107
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 490.5,
-                            "y": 1085.5
+                            "x": 704,
+                            "y": 491.5
                           },
                           {
-                            "x": 273,
-                            "y": 293
+                            "x": 1200,
+                            "y": 502.5
                           },
                           {
-                            "x": 936.5,
-                            "y": 90
+                            "x": 1207,
+                            "y": 1869.5
                           },
                           {
-                            "x": 1599.5,
-                            "y": 293
-                          },
-                          {
-                            "x": 1193,
-                            "y": 1878
-                          },
-                          {
-                            "x": 708,
-                            "y": 1878
+                            "x": 686,
+                            "y": 1869.5
                           }
                         ]
                       ]
@@ -445,40 +451,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 697,
+                        "y": 483
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 968,
+                        "y": 1107
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 490.5,
-                            "y": 1085.5
+                            "x": 704,
+                            "y": 491.5
                           },
                           {
-                            "x": 273,
-                            "y": 293
+                            "x": 1200,
+                            "y": 502.5
                           },
                           {
-                            "x": 936.5,
-                            "y": 90
+                            "x": 1207,
+                            "y": 1869.5
                           },
                           {
-                            "x": 1599.5,
-                            "y": 293
-                          },
-                          {
-                            "x": 1193,
-                            "y": 1878
-                          },
-                          {
-                            "x": 708,
-                            "y": 1878
+                            "x": 686,
+                            "y": 1869.5
                           }
                         ]
                       ]
@@ -489,40 +487,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 697,
+                        "y": 483
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 968,
+                        "y": 1107
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 490.5,
-                            "y": 1085.5
+                            "x": 704,
+                            "y": 491.5
                           },
                           {
-                            "x": 273,
-                            "y": 293
+                            "x": 1200,
+                            "y": 502.5
                           },
                           {
-                            "x": 936.5,
-                            "y": 90
+                            "x": 1207,
+                            "y": 1869.5
                           },
                           {
-                            "x": 1599.5,
-                            "y": 293
-                          },
-                          {
-                            "x": 1193,
-                            "y": 1878
-                          },
-                          {
-                            "x": 708,
-                            "y": 1878
+                            "x": 686,
+                            "y": 1869.5
                           }
                         ]
                       ]
@@ -533,40 +523,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 697,
+                        "y": 483
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 968,
+                        "y": 1107
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 490.5,
-                            "y": 1085.5
+                            "x": 704,
+                            "y": 491.5
                           },
                           {
-                            "x": 273,
-                            "y": 293
+                            "x": 1200,
+                            "y": 502.5
                           },
                           {
-                            "x": 936.5,
-                            "y": 90
+                            "x": 1207,
+                            "y": 1869.5
                           },
                           {
-                            "x": 1599.5,
-                            "y": 293
-                          },
-                          {
-                            "x": 1193,
-                            "y": 1878
-                          },
-                          {
-                            "x": 708,
-                            "y": 1878
+                            "x": 686,
+                            "y": 1869.5
                           }
                         ]
                       ]
@@ -577,40 +559,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 697,
+                        "y": 483
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 968,
+                        "y": 1107
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 490.5,
-                            "y": 1085.5
+                            "x": 704,
+                            "y": 491.5
                           },
                           {
-                            "x": 273,
-                            "y": 293
+                            "x": 1200,
+                            "y": 502.5
                           },
                           {
-                            "x": 936.5,
-                            "y": 90
+                            "x": 1207,
+                            "y": 1869.5
                           },
                           {
-                            "x": 1599.5,
-                            "y": 293
-                          },
-                          {
-                            "x": 1193,
-                            "y": 1878
-                          },
-                          {
-                            "x": 708,
-                            "y": 1878
+                            "x": 686,
+                            "y": 1869.5
                           }
                         ]
                       ]
@@ -621,40 +595,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 697,
+                        "y": 483
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 968,
+                        "y": 1107
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 490.5,
-                            "y": 1085.5
+                            "x": 704,
+                            "y": 491.5
                           },
                           {
-                            "x": 273,
-                            "y": 293
+                            "x": 1200,
+                            "y": 502.5
                           },
                           {
-                            "x": 936.5,
-                            "y": 90
+                            "x": 1207,
+                            "y": 1869.5
                           },
                           {
-                            "x": 1599.5,
-                            "y": 293
-                          },
-                          {
-                            "x": 1193,
-                            "y": 1878
-                          },
-                          {
-                            "x": 708,
-                            "y": 1878
+                            "x": 686,
+                            "y": 1869.5
                           }
                         ]
                       ]
@@ -665,40 +631,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 697,
+                        "y": 483
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 968,
+                        "y": 1107
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 490.5,
-                            "y": 1085.5
+                            "x": 704,
+                            "y": 491.5
                           },
                           {
-                            "x": 273,
-                            "y": 293
+                            "x": 1200,
+                            "y": 502.5
                           },
                           {
-                            "x": 936.5,
-                            "y": 90
+                            "x": 1207,
+                            "y": 1869.5
                           },
                           {
-                            "x": 1599.5,
-                            "y": 293
-                          },
-                          {
-                            "x": 1193,
-                            "y": 1878
-                          },
-                          {
-                            "x": 708,
-                            "y": 1878
+                            "x": 686,
+                            "y": 1869.5
                           }
                         ]
                       ]
@@ -709,40 +667,32 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 697,
+                        "y": 483
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 968,
+                        "y": 1107
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 490.5,
-                            "y": 1085.5
+                            "x": 704,
+                            "y": 491.5
                           },
                           {
-                            "x": 273,
-                            "y": 293
+                            "x": 1200,
+                            "y": 502.5
                           },
                           {
-                            "x": 936.5,
-                            "y": 90
+                            "x": 1207,
+                            "y": 1869.5
                           },
                           {
-                            "x": 1599.5,
-                            "y": 293
-                          },
-                          {
-                            "x": 1193,
-                            "y": 1878
-                          },
-                          {
-                            "x": 708,
-                            "y": 1878
+                            "x": 686,
+                            "y": 1869.5
                           }
                         ]
                       ]
@@ -754,14 +704,22 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NewSprite",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "NewSprite",
@@ -774,7 +732,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite2",
+                      "image": "NewSprite3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -791,19 +749,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 24
+                            "y": 38
                           },
                           {
                             "x": 64,
-                            "y": 24
+                            "y": 38
                           },
                           {
                             "x": 64,
-                            "y": 46
+                            "y": 40
                           },
                           {
                             "x": 0,
-                            "y": 46
+                            "y": 40
                           }
                         ]
                       ]
@@ -819,10 +777,10 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "NewSprite"
+            "objectName": "man"
           },
           {
-            "objectName": "man"
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -832,199 +790,135 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "d"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                "value": "PlatformBehavior::IsOnFloor"
               },
               "parameters": [
                 "man",
-                "Flippable",
-                "no"
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::CurrentSpeed"
+                  },
+                  "parameters": [
+                    "man",
+                    "PlatformerObject",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "man",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "man",
-                "Animation",
-                "=",
-                "\"RUN\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::CurrentSpeed"
+                  },
+                  "parameters": [
+                    "man",
+                    "PlatformerObject",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "man",
+                    "Flippable",
+                    "no"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "man",
-                "+",
-                "5"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "a"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "man",
-                "Flippable",
-                "yes"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "man",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "man",
+                    "Animation",
+                    "=",
+                    "\"RUN\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "man",
-                "Animation",
-                "=",
-                "\"RUN\""
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "man",
-                "-",
-                "5"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Num1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "man",
-                "Animation",
-                "=",
-                "\"WAVE\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "d"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "man",
-                "Animation",
-                "=",
-                "\"nomal\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "a"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "man",
-                "Animation",
-                "=",
-                "\"nomal\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "Num1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "man",
-                "Animation",
-                "=",
-                "\"nomal\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "man",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "man",
+                    "Flippable",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "man",
+                    "Animation",
+                    "=",
+                    "\"nomal\""
+                  ]
+                }
               ]
             }
           ]
@@ -1092,6 +986,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
         },
         {
           "name": "PlatformerObject",
