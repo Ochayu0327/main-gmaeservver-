@@ -135,6 +135,14 @@
         "name": "MAN\\GamePlayer normal.PNG",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite2.png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -166,7 +174,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6897782140104496,
+        "zoomFactor": 0.301046119718246,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -182,8 +190,8 @@
           "name": "man",
           "persistentUuid": "6090692d-9f43-4aed-bc24-efa8f018f439",
           "width": 463,
-          "x": 392,
-          "y": 208,
+          "x": -664,
+          "y": -1244,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -192,14 +200,35 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "man",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "nomal",
@@ -227,12 +256,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 708,
-                            "y": 508
+                            "x": 490.5,
+                            "y": 1085.5
                           },
                           {
-                            "x": 1193,
-                            "y": 508
+                            "x": 273,
+                            "y": 293
+                          },
+                          {
+                            "x": 936.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 1599.5,
+                            "y": 293
                           },
                           {
                             "x": 1193,
@@ -276,12 +313,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 708,
-                            "y": 508
+                            "x": 490.5,
+                            "y": 1085.5
                           },
                           {
-                            "x": 1193,
-                            "y": 508
+                            "x": 273,
+                            "y": 293
+                          },
+                          {
+                            "x": 936.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 1599.5,
+                            "y": 293
                           },
                           {
                             "x": 1193,
@@ -312,12 +357,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 708,
-                            "y": 508
+                            "x": 490.5,
+                            "y": 1085.5
                           },
                           {
-                            "x": 1193,
-                            "y": 508
+                            "x": 273,
+                            "y": 293
+                          },
+                          {
+                            "x": 936.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 1599.5,
+                            "y": 293
                           },
                           {
                             "x": 1193,
@@ -348,12 +401,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 708,
-                            "y": 508
+                            "x": 490.5,
+                            "y": 1085.5
                           },
                           {
-                            "x": 1193,
-                            "y": 508
+                            "x": 273,
+                            "y": 293
+                          },
+                          {
+                            "x": 936.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 1599.5,
+                            "y": 293
                           },
                           {
                             "x": 1193,
@@ -396,12 +457,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 708,
-                            "y": 508
+                            "x": 490.5,
+                            "y": 1085.5
                           },
                           {
-                            "x": 1193,
-                            "y": 508
+                            "x": 273,
+                            "y": 293
+                          },
+                          {
+                            "x": 936.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 1599.5,
+                            "y": 293
                           },
                           {
                             "x": 1193,
@@ -432,12 +501,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 708,
-                            "y": 508
+                            "x": 490.5,
+                            "y": 1085.5
                           },
                           {
-                            "x": 1193,
-                            "y": 508
+                            "x": 273,
+                            "y": 293
+                          },
+                          {
+                            "x": 936.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 1599.5,
+                            "y": 293
                           },
                           {
                             "x": 1193,
@@ -468,12 +545,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 708,
-                            "y": 508
+                            "x": 490.5,
+                            "y": 1085.5
                           },
                           {
-                            "x": 1193,
-                            "y": 508
+                            "x": 273,
+                            "y": 293
+                          },
+                          {
+                            "x": 936.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 1599.5,
+                            "y": 293
                           },
                           {
                             "x": 1193,
@@ -504,12 +589,152 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 708,
-                            "y": 508
+                            "x": 490.5,
+                            "y": 1085.5
+                          },
+                          {
+                            "x": 273,
+                            "y": 293
+                          },
+                          {
+                            "x": 936.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 1599.5,
+                            "y": 293
                           },
                           {
                             "x": 1193,
-                            "y": 508
+                            "y": 1878
+                          },
+                          {
+                            "x": 708,
+                            "y": 1878
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "MAN\\GamePlayer wave3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 490.5,
+                            "y": 1085.5
+                          },
+                          {
+                            "x": 273,
+                            "y": 293
+                          },
+                          {
+                            "x": 936.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 1599.5,
+                            "y": 293
+                          },
+                          {
+                            "x": 1193,
+                            "y": 1878
+                          },
+                          {
+                            "x": 708,
+                            "y": 1878
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "MAN\\GamePlayer wave2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 490.5,
+                            "y": 1085.5
+                          },
+                          {
+                            "x": 273,
+                            "y": 293
+                          },
+                          {
+                            "x": 936.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 1599.5,
+                            "y": 293
+                          },
+                          {
+                            "x": 1193,
+                            "y": 1878
+                          },
+                          {
+                            "x": 708,
+                            "y": 1878
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "MAN\\GamePlayer wave1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 490.5,
+                            "y": 1085.5
+                          },
+                          {
+                            "x": 273,
+                            "y": 293
+                          },
+                          {
+                            "x": 936.5,
+                            "y": 90
+                          },
+                          {
+                            "x": 1599.5,
+                            "y": 293
                           },
                           {
                             "x": 1193,
@@ -527,11 +752,75 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 24
+                          },
+                          {
+                            "x": 64,
+                            "y": 24
+                          },
+                          {
+                            "x": 64,
+                            "y": 46
+                          },
+                          {
+                            "x": 0,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "objectName": "NewSprite"
+          },
           {
             "objectName": "man"
           }
@@ -637,6 +926,33 @@
           "conditions": [
             {
               "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Num1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "man",
+                "Animation",
+                "=",
+                "\"WAVE\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "KeyReleased"
               },
               "parameters": [
@@ -669,6 +985,33 @@
               "parameters": [
                 "",
                 "a"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "man",
+                "Animation",
+                "=",
+                "\"nomal\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Num1"
               ]
             }
           ],
@@ -749,6 +1092,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
           "name": "Resizable",
