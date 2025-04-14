@@ -416,6 +416,14 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -447,7 +455,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6244537826600031,
+        "zoomFactor": 0.43357743047024044,
         "windowMask": false
       },
       "objectsGroups": [
@@ -486,14 +494,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 18,
+          "height": 37,
           "keepRatio": true,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "75edc68b-605d-4c7f-a5c2-21056a848b32",
           "width": 755,
           "x": 19,
-          "y": -7,
+          "y": -26,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -520,14 +528,14 @@
           "angle": 90,
           "customSize": true,
           "depth": 1,
-          "height": 18,
+          "height": 37,
           "keepRatio": true,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "c86d46f7-b173-4608-9459-fc86a50c4da0",
           "width": 755,
-          "x": -357,
-          "y": 348,
+          "x": -367,
+          "y": 335,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -537,14 +545,14 @@
           "angle": 90,
           "customSize": true,
           "depth": 1,
-          "height": 18,
+          "height": 39,
           "keepRatio": true,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "425d1ff4-b5a6-46f7-8e07-a6a72c45a6c0",
           "width": 755,
-          "x": 403,
-          "y": 351,
+          "x": 404,
+          "y": 338,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1015,20 +1023,24 @@
                             "y": 0
                           },
                           {
-                            "x": 22,
-                            "y": 0
+                            "x": 17.5,
+                            "y": 0.5
                           },
                           {
-                            "x": 22,
-                            "y": 2.5714292526245117
+                            "x": 21.5,
+                            "y": 4.5
                           },
                           {
-                            "x": 22,
+                            "x": 20,
+                            "y": 6
+                          },
+                          {
+                            "x": 21.5,
                             "y": 7
                           },
                           {
-                            "x": 22,
-                            "y": 14
+                            "x": 18,
+                            "y": 13.5
                           },
                           {
                             "x": 7.5,
@@ -1339,7 +1351,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite4",
+                      "image": "NewSprite5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1891,6 +1903,17 @@
           "actions": [
             {
               "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "ball",
+                "Random(-100)",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Bounce::Bounce::BounceOff"
               },
               "parameters": [
@@ -1898,17 +1921,6 @@
                 "Bounce",
                 "bounce",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "ball",
-                "-80",
-                "10",
-                "1"
               ]
             }
           ]
